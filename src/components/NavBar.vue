@@ -15,7 +15,7 @@
                     <a href="#">Join Us</a>
                 </li>
                 <li class="nav-item">
-                    Search
+                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
                 </li>
             </ul>
         </nav>
