@@ -11,7 +11,7 @@
                 <li class="nav-item">Android</li>
                 <li class="nav-item">Forums</li>
                 <li class="nav-item">Contact us</li>
-                <li class="nav-item">
+                <li class="nav-item" id="button_black">
                     <a href="#">Join Us</a>
                 </li>
                 <li class="nav-item">
@@ -30,29 +30,34 @@ export default {
 
 <style lang="scss" scoped>
 @import '../styles/variables.scss';
+.bg-nav {    
+    background-color: $easternBlue-color;
+    color: white;
+    font-size: 0.813rem;
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav-log {
+            max-width: 237px;
+        }
+        .nav-list-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            #button_black {
+                padding: 10px 20px;
+                background-color: $shark-color;
+            }
+        }
+            
+    }
+}
 
-* {
+
+    
     
 
-    .bg-nav {    
-        background-color: $easternBlue-color;
-        color: white;
-        font-size: 0.813rem;
-        .nav-wrapper {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            .nav-log {
-                max-width: 237px;
-            }
-            .nav-list-wrapper {
-                display: flex;
-                gap: 30px;
-            }
-                
-        }
-    }
 
-}
 
 </style>
