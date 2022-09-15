@@ -4,9 +4,9 @@
             <h3>Phasellus Eget Metus</h3>
             <h2>All the latest news</h2>
         </div>
-        <TripleCards class="mb_1" :posters="posterArrayFirst" />
-        <SingleCard class="mb_1"/>
         <TripleCards class="mb_1"/>
+        <SingleCard class="mb_1"/>
+        <TripleCardsSec class="mb_1"/>
         <FlexCards />
         <BottomComponent :link="link_1"/>
     </div>
@@ -17,6 +17,7 @@ import TripleCards from './TripleCards.vue'
 import SingleCard from './SingleCard.vue'
 import FlexCards from './FlexCards.vue'
 import BottomComponent from './BottomComponent.vue'
+import TripleCardsSec from './TripleCardsSec.vue'
 
 export default {
     name: 'LatestNewsSec',
@@ -24,7 +25,8 @@ export default {
     TripleCards,
     SingleCard,
     FlexCards,
-    BottomComponent
+    BottomComponent,
+    TripleCardsSec
 },
     data() {
         return {
@@ -32,33 +34,12 @@ export default {
                 text: 'Read our blog',
                 link: '#'
             },
-            posterArrayFirst: [
-                {
-                    src: '../assets/img/post_feat_img_25-320x202.jpg',
-                    h4: 'Morbi vitae dui euismod vulputate sollicitudin',
-                    date: 'October 11th, 2015 | 2 Comments',
-                    content: 'Donec finibus sit amet arci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum  placerat metus mattis. Aenean dictum vitae nisl.',
-                    id: 1
-                },
-                {
-                    src: '../assets/img/post_feat_img_24-320x202.jpg',
-                    h4: 'Morbi vitae dui euismod vulputate sollicitudin',
-                    date: 'October 11th, 2015 | 2 Comments',
-                    content: 'Donec finibus sit amet arci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum  placerat metus mattis. Aenean dictum vitae nisl.',
-                    id: 2
-                },
-                {
-                    src: '../assets/img/post_feat_img_23-320x202.jpg',
-                    h4: 'Morbi vitae dui euismod vulputate sollicitudin',
-                    date: 'October 11th, 2015 | 2 Comments',
-                    content: 'Donec finibus sit amet arci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum  placerat metus mattis. Aenean dictum vitae nisl.',
-                    id: 3
-                }
-            ]
         }
     },
     
 }
+            
+            
 </script>
 
 <style lang="scss" scoped>

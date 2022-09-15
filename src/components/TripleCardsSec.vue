@@ -14,23 +14,10 @@
         </div> -->
         <div class="card_mine d-flex flex-column">
             <figure class="img_container">
-                <img src="../assets/img/post_feat_img_25-320x202.jpg" alt="">
+                <img src="../assets/img/post_feat_img_22-320x202.jpg" alt="">
             </figure>
             <div class="text_container">
-                <h4>Morbi vitae dui euismod vulputate sollicitudin</h4>
-                <p class="date">October 11th, 2015 | 2 Comments </p>
-                <p class="content">
-                    Donec finibus sit amet arci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum
-                    placerat metus mattis. Aenean dictum vitae nisl.
-                </p>
-            </div>
-        </div>
-        <div class="card_mine d-flex flex-column">
-            <figure class="img_container">
-                <img src="../assets/img/post_feat_img_24-320x202.jpg" alt="">
-            </figure>
-            <div class="text_container">
-                <h4>Vivamus pellenteque, felis quis varius</h4>
+                <h4>Fusce sollicitudin nunc sed placerat varius</h4>
                 <p class="date">October 11th, 2015 | Comments Off </p>
                 <p class="content">
                     Donec finibus sit amet arci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum
@@ -40,10 +27,23 @@
         </div>
         <div class="card_mine d-flex flex-column">
             <figure class="img_container">
-                <img src="../assets/img/post_feat_img_23-320x202.jpg" alt="">
+                <img src="../assets/img/post_feat_img_21-320x202.jpg" alt="">
             </figure>
             <div class="text_container">
-                <h4>Donec ornare pretium eget scelisque justo</h4>
+                <h4>Donec facilis sodales leo sit amet leoreet</h4>
+                <p class="date">October 11th, 2015 | Comments Off </p>
+                <p class="content">
+                    Donec finibus sit amet arci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum
+                    placerat metus mattis. Aenean dictum vitae nisl.
+                </p>
+            </div>
+        </div>
+        <div class="card_mine d-flex flex-column">
+            <figure class="img_container">
+                <img src="../assets/img/post_feat_img_20-320x202.jpg" alt="">
+            </figure>
+            <div class="text_container">
+                <h4>Proin eu purus sed aru aliquet curabir vens</h4>
                 <p class="date">October 11th, 2015 | Comments Off </p>
                 <p class="content">
                     Donec finibus sit amet arci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum
