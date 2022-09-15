@@ -1,10 +1,14 @@
 <template>
   <div>
-    <HeroSection/>
-    <LatestNewsSec/>
-    <ForumSection/>
+    <HeroSection />
+    <LatestNewsSec />
+    <ForumSection />
   </div>
 </template>
+
+
+
+
 
 <script>
 import HeroSection from './HeroSection.vue'
@@ -20,7 +24,7 @@ export default {
     HeroSection,
     LatestNewsSec,
     ForumSection,
-}
+  }
 }
 </script>
 

@@ -8,7 +8,7 @@
                     Get Avada Now!
                     <font-awesome-icon :icon="['fas', 'angle-right']" />
                 </a>
-                    
+
             </div>
         </div>
         <div class="bottom_hero">
@@ -32,9 +32,11 @@ export default {
 @import '../styles/variables.scss';
 
 .slider {
+    background-image: url(../assets/img/home_slider_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
     .hero {
-        background-image: url(../assets/img/home_slider_bg.jpg);
-        background-position: center;
         height: 840px;
         display: flex;
         justify-content: center;
@@ -66,10 +68,13 @@ export default {
         }
     }
 
+
     .bottom_hero {
         background-color: $bizarre-color;
         padding-top: 115px;
         padding-bottom: 122px;
+
+
         h3 {
             text-transform: uppercase;
             font-size: 12px;
@@ -79,6 +84,7 @@ export default {
             padding-bottom: 25px;
             color: $nevada-color;
         }
+
         p {
             text-align: center;
             font-size: 26px;
@@ -88,3 +94,7 @@ export default {
     }
 }
 </style>
+
+
+
+
