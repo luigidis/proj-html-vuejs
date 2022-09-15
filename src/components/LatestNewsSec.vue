@@ -4,7 +4,7 @@
             <h3>Phasellus Eget Metus</h3>
             <h2>All the latest news</h2>
         </div>
-        <TripleCards class="mb_1"/>
+        <TripleCards class="mb_1" :posters="posterArrayFirst" />
         <SingleCard class="mb_1"/>
         <TripleCards class="mb_1"/>
         <FlexCards />
@@ -31,7 +31,30 @@ export default {
             link_1: {
                 text: 'Read our blog',
                 link: '#'
-            }
+            },
+            posterArrayFirst: [
+                {
+                    src: '../assets/img/post_feat_img_25-320x202.jpg',
+                    h4: 'Morbi vitae dui euismod vulputate sollicitudin',
+                    date: 'October 11th, 2015 | 2 Comments',
+                    content: 'Donec finibus sit amet arci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum  placerat metus mattis. Aenean dictum vitae nisl.',
+                    id: 1
+                },
+                {
+                    src: '../assets/img/post_feat_img_24-320x202.jpg',
+                    h4: 'Morbi vitae dui euismod vulputate sollicitudin',
+                    date: 'October 11th, 2015 | 2 Comments',
+                    content: 'Donec finibus sit amet arci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum  placerat metus mattis. Aenean dictum vitae nisl.',
+                    id: 2
+                },
+                {
+                    src: '../assets/img/post_feat_img_23-320x202.jpg',
+                    h4: 'Morbi vitae dui euismod vulputate sollicitudin',
+                    date: 'October 11th, 2015 | 2 Comments',
+                    content: 'Donec finibus sit amet arci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum  placerat metus mattis. Aenean dictum vitae nisl.',
+                    id: 3
+                }
+            ]
         }
     },
     

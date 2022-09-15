@@ -9,13 +9,13 @@
         
 
 <script>
-    export default {
-        name: 'BottomComponent',
-        props: {
-        link:  Object,
+export default {
+    name: 'BottomComponent',
+    props: {
+        link: Object,
     }
-            
-    }
+
+}
 </script>
 
 <style lang="scss" scoped>
@@ -33,6 +33,4 @@
     font-size: 20px;
     font-weight: bold;
 }
-   
-
 </style>
