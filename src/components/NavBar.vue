@@ -4,13 +4,8 @@
             <div class="nav-logo">
                 <img src="../assets/img/logo.png" alt="Logo Avada Forum">
             </div>
-            <ul 
-                class="nav-list-wrapper"
-                v-for="item in navBarItems"
-                :key="item.id">
-                <li 
-                    class="nav-item"
-                    :id="item.item_id">
+            <ul class="nav-list-wrapper" v-for="item in navBarItems" :key="item.id">
+                <li class="nav-item" :id="item.item_id">
                     <a :href="item.link">
                         {{item.item}}
                     </a>
@@ -66,43 +61,43 @@ export default {
             navBarItems: [
                 {
                     item: 'Home',
-                    link:   '#',
+                    link: '#',
                     item_id: '',
                     id: 1,
                 },
                 {
                     item: 'Apple',
-                    link:   '#',
+                    link: '#',
                     item_id: '',
                     id: 2,
                 },
                 {
                     item: 'Microsoft',
-                    link:   '#',
+                    link: '#',
                     item_id: '',
                     id: 3,
                 },
                 {
                     item: 'Android',
-                    link:   '#',
+                    link: '#',
                     item_id: '',
                     id: 4,
                 },
                 {
                     item: 'Forum',
-                    link:   '#',
+                    link: '#',
                     item_id: '',
                     id: 5,
                 },
                 {
                     item: 'Contact Us',
-                    link:   '#',
+                    link: '#',
                     item_id: '',
                     id: 6,
                 },
                 {
                     item: 'Join Us',
-                    link:   '#',
+                    link: '#',
                     item_id: 'button_black',
                     id: 7,
                 },
@@ -125,8 +120,13 @@ export default {
     background-color: $easternBlue-color;
     color: white;
     font-size: 0.813rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 
     .nav-wrapper {
+        padding: 15px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;

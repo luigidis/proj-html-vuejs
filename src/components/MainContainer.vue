@@ -1,13 +1,13 @@
 <template>
   <div>
-    <FirstSection/>
+    <HeroSection/>
     <LatestNewsSec/>
     <ForumSection/>
   </div>
 </template>
 
 <script>
-import FirstSection from './FirstSection.vue'
+import HeroSection from './HeroSection.vue'
 import LatestNewsSec from './LatestNewsSec.vue'
 import ForumSection from './ForumSection.vue'
 
@@ -17,7 +17,7 @@ export default {
 
   },
   components: {
-    FirstSection,
+    HeroSection,
     LatestNewsSec,
     ForumSection,
 }
