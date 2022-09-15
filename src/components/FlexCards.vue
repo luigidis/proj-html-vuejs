@@ -70,6 +70,7 @@ export default {
 .flex_cards {
     // height: 480px;
     gap: 30px;
+    margin-bottom: 140px;
 
     .big_card {
         background-image: url(../assets/img/featured_article_2_bg.jpg);

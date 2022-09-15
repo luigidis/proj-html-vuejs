@@ -35,6 +35,7 @@ export default {
     background-image: url(../assets/img/home_slider_bg.jpg);
     background-repeat: no-repeat;
     background-position: top;
+    background-size: 100% 853px;
     background-attachment: fixed;
     .hero {
         height: 840px;

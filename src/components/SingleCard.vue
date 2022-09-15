@@ -32,12 +32,12 @@ export default {
     background-image: url(../assets/img/featured_article_1_bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     height: 573px;
     color: white;
     display: flex;
     align-items: center;
-    
+
     .card_content {
         max-width: 960px;
         margin: 0 auto;

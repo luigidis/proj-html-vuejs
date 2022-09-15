@@ -8,6 +8,7 @@
         <SingleCard class="mb_1"/>
         <TripleCards class="mb_1"/>
         <FlexCards />
+        <BottomComponent :link="link_1"/>
     </div>
 </template>
 
@@ -15,14 +16,25 @@
 import TripleCards from './TripleCards.vue'
 import SingleCard from './SingleCard.vue'
 import FlexCards from './FlexCards.vue'
+import BottomComponent from './BottomComponent.vue'
 
 export default {
     name: 'LatestNewsSec',
     components: {
     TripleCards,
     SingleCard,
-    FlexCards
-}
+    FlexCards,
+    BottomComponent
+},
+    data() {
+        return {
+            link_1: {
+                text: 'Read our blog',
+                link: '#'
+            }
+        }
+    },
+    
 }
 </script>
 

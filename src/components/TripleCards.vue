@@ -1,6 +1,6 @@
 <template>
     <div class="card_triple">
-        <div class="card_mine">
+        <div class="card_mine d-flex flex-column">
             <figure class="img_container">
                 <img src="https://picsum.photos/id/237/370/265" alt="">
             </figure>
@@ -13,7 +13,7 @@
                 </p>
             </div>
         </div>
-        <div class="card_mine">
+        <div class="card_mine d-flex flex-column">
             <figure class="img_container">
                 <img src="https://picsum.photos/id/237/370/265" alt="">
             </figure>
@@ -26,7 +26,7 @@
                 </p>
             </div>
         </div>
-        <div class="card_mine">
+        <div class="card_mine d-flex flex-column">
             <figure class="img_container">
                 <img src="https://picsum.photos/id/237/370/265" alt="">
             </figure>
@@ -52,8 +52,10 @@ export default {
 .card_triple {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 
     .card_mine {
+        align-items: center;
         .img_container {
             max-width: 370px;
         }
@@ -70,8 +72,9 @@ export default {
             .content {
                 font-size: 14px;
             }
-            
         }
     }
+        
 }
+            
 </style>
