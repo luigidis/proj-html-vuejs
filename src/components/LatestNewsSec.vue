@@ -4,16 +4,25 @@
             <h3>Phasellus Eget Metus</h3>
             <h2>All the latest news</h2>
         </div>
-        Componente card triplo
-        Componente card singola
-        Componente card triplo
-        Componente card singolo + triplo in colonna
+        <TripleCards class="mb_1"/>
+        <SingleCard class="mb_1"/>
+        <TripleCards class="mb_1"/>
+        <FlexCards />
     </div>
 </template>
 
 <script>
+import TripleCards from './TripleCards.vue'
+import SingleCard from './SingleCard.vue'
+import FlexCards from './FlexCards.vue'
+
 export default {
-    name: 'LatestNewsSec'
+    name: 'LatestNewsSec',
+    components: {
+    TripleCards,
+    SingleCard,
+    FlexCards
+}
 }
 </script>
 
@@ -24,6 +33,7 @@ export default {
     padding-top: 115px;
     .title_news {
         position: relative;
+        margin-bottom: 45px;
         h3 {
             text-transform: uppercase;
             font-size: 12px;
@@ -50,6 +60,12 @@ export default {
         bottom: 0;
         left: 50%;
         transform: translate(-50%, -50%)
+    }
+    .pb_1 {
+        padding-bottom: 54px;
+    }
+    .mb_1 {
+        margin-bottom: 76px;
     }
 }
 </style>
