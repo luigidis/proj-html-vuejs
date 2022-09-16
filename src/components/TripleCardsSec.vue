@@ -101,7 +101,7 @@ export default {
     gap: 30px;
 
     .card_mine {
-        align-items: center;
+        
 
         .img_container {
             max-width: 370px;

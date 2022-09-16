@@ -6,7 +6,7 @@
                 <p>Discuss all the latest technology news and tends</p>
                 <a href="#" class="button">
                     Get Avada Now!
-                    <font-awesome-icon :icon="['fas', 'angle-right']" />
+                    <font-awesome-icon :icon="['fas', 'angle-right']"/>
                 </a>
 
             </div>

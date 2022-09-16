@@ -4,13 +4,20 @@
             <div class="nav-logo">
                 <img src="../assets/img/logo.png" alt="Logo Avada Forum">
             </div>
-            <ul class="nav-list-wrapper" v-for="item in navBarItems" :key="item.id">
+            <!-- <ul class="nav-list-wrapper" 
+                v-for="item in navBarItems" :key="item.id">
                 <li class="nav-item" :id="item.item_id">
                     <a :href="item.link">
                         {{item.item}}
                     </a>
+                </li> -->
+            <ul class="nav-list-wrapper">
+                <li class="nav-item">
+                    <a href="#">
+                        Home
+                    </a>
                 </li>
-                <!-- <li class="nav-item">
+                <li class="nav-item">
                     <a href="#">
                         Apple
                     </a>
@@ -42,9 +49,9 @@
                 </li>
                 <li class="nav-item">
                     <a href="#">
-                        <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                        <b-icon-search></b-icon-search>
                     </a>
-                </li> -->
+                </li> 
             </ul>
         </nav>
     </div>
@@ -102,7 +109,7 @@ export default {
                     id: 7,
                 },
                 {
-                    item: `${<font-awesome-icon icon="fa-solid fa-magnifying-glass" />}`,
+                    item: '<b-icon-search></b-icon-search>',
                     link: '#',
                     item_id: '',
                     id: 8,
@@ -124,6 +131,7 @@ export default {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 9999;
 
     .nav-wrapper {
         padding: 15px 0;

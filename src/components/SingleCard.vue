@@ -10,7 +10,7 @@
             <div class="button_black">
                 <a href="#">
                     Read More
-                    <font-awesome-icon icon="fa-solid fa-angle-right" />
+                    <font-awesome-icon icon="fa-solid fa-angle-right"/>
                 </a>
             </div>
         </div>

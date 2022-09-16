@@ -2,7 +2,7 @@
     <div class="bg_shark">
         <a :href="link.link">
             {{link.text}}
-            <font-awesome-icon icon="fa-solid fa-arrow-right" class="ps-2" />
+            <font-awesome-icon icon="fa-solid fa-angle-right"/>
         </a>
     </div>
 </template>
