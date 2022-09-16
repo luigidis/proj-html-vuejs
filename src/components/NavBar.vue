@@ -49,7 +49,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="#">
-                        <font-awesome-icon icon="fa-solid fa-magnifying-glass"></font-awesome-icon>
+                        <font-awesome-icon icon="fa-solid fa-magnifying-glass" ></font-awesome-icon>
                     </a>
                 </li> 
             </ul>
