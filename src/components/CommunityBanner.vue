@@ -8,7 +8,10 @@
                     vulputate purus ipsums dolores ficilitis uns etra.
                 </p>
                 <div class="button_mine">
-                    <a href="#">Sign Up <font-awesome-icon icon="fa-solid fa-angle-right"></font-awesome-icon></a>
+                    <a href="#">
+                        Sign Up 
+                        <font-awesome-icon icon="fa-solid fa-angle-right"></font-awesome-icon>
+                    </a>
                 </div>
             </div>
         </div>
@@ -17,7 +20,7 @@
                 <div class="subscriber_container">
                     <h3> Subscribe to our Newsletter</h3>
                     <div class="input_wrapper">
-                        <input type="text" placeholder="insert your email*">
+                        <input type="text" placeholder="Insert your email*" class="ps-3">
                         <button class="send">Send</button>
                     </div>
                 </div>
