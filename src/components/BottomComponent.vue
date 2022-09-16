@@ -2,7 +2,7 @@
     <div class="bg_shark">
         <a :href="link.link">
             {{link.text}}
-            <font-awesome-icon icon="fa-solid fa-angle-right"/>
+            <font-awesome-icon icon="fa-solid fa-arrow-right" class="ps-2 fs_1"></font-awesome-icon>
         </a>
     </div>
 </template>
@@ -30,7 +30,11 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
+    .fs_1 {
+        font-size: 14px;
+    }
+    
 }
 </style>

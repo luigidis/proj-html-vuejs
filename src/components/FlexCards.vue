@@ -27,26 +27,26 @@
                     <img src="../assets/img/post_feat_img_23-147x118.jpg" alt="">
                 </figure>
                 <article>
-                    <h4>DonecOrnare pretium</h4>
-                    <div class="date">Ovtober 11th,2015 | Comments Off</div>
+                    <h4>Donec ornare pretium eget scelisque justo</h4>
+                    <div class="date">October 11th,2015 | Comments Off</div>
                 </article>
             </div>
             <div class="card_mine col-12 d-flex">
                 <figure>
-                    <img src="../assets/img/post_feat_img_23-147x118.jpg" alt="">
+                    <img src="../assets/img/post_feat_img_22-147x118.jpg" alt="">
                 </figure>
                 <article>
-                    <h4>DonecOrnare pretium</h4>
-                    <div class="date">Ovtober 11th,2015 | Comments Off</div>
+                    <h4>Fusce sollicitudin nunc sed placerat varius</h4>
+                    <div class="date">October 11th,2015 | Comments Off</div>
                 </article>
             </div>
             <div class="card_mine col-12 d-flex">
                 <figure>
-                    <img src="../assets/img/post_feat_img_23-147x118.jpg" alt="">
+                    <img src="../assets/img/post_feat_img_20-147x118.jpg" alt="">
                 </figure>
                 <article>
-                    <h4>DonecOrnare pretium</h4>
-                    <div class="date">Ovtober 11th,2015 | Comments Off</div>
+                    <h4>Proin eu purus sed aru aliquet curabir vens</h4>
+                    <div class="date">October 11th,2015 | Comments Off</div>
                 </article>
             </div>
         </div>
@@ -137,6 +137,13 @@ export default {
 
             figure {
                 max-width: 138px;
+            }
+            h4 {
+                font-size: 16px;
+                font-weight: bold;
+            }
+            .date {
+                font-size: 12px;
             }
         }
     }

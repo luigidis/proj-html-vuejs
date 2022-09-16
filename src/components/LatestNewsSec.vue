@@ -1,16 +1,20 @@
 <template>
-    <div class="news_container container">
-        <div class="title_news">
-            <h3>Phasellus Eget Metus</h3>
-            <h2>All the latest news</h2>
+    <div>
+        <div class="news_container container">
+            <div class="title_news">
+                <h3>Phasellus Eget Metus</h3>
+                <h2>All the latest news</h2>
+            </div>
+            <TripleCards class="mb_1" />
+            <SingleCard class="mb_1" />
+            <TripleCardsSec class="mb_1" />
+            <FlexCards />
         </div>
-        <TripleCards class="mb_1"/>
-        <SingleCard class="mb_1"/>
-        <TripleCardsSec class="mb_1"/>
-        <FlexCards />
-        <BottomComponent :link="link_1"/>
+        <BottomComponent :link="link_1" />
     </div>
 </template>
+
+
 
 <script>
 import TripleCards from './TripleCards.vue'
@@ -22,12 +26,12 @@ import TripleCardsSec from './TripleCardsSec.vue'
 export default {
     name: 'LatestNewsSec',
     components: {
-    TripleCards,
-    SingleCard,
-    FlexCards,
-    BottomComponent,
-    TripleCardsSec
-},
+        TripleCards,
+        SingleCard,
+        FlexCards,
+        BottomComponent,
+        TripleCardsSec
+    },
     data() {
         return {
             link_1: {
@@ -36,10 +40,10 @@ export default {
             },
         }
     },
-    
+
 }
-            
-            
+
+
 </script>
 
 <style lang="scss" scoped>
@@ -47,9 +51,11 @@ export default {
 
 .news_container {
     padding-top: 115px;
+
     .title_news {
         position: relative;
         margin-bottom: 45px;
+
         h3 {
             text-transform: uppercase;
             font-size: 12px;
@@ -59,6 +65,7 @@ export default {
             padding-bottom: 25px;
             color: $capeCod-color;
         }
+
         h2 {
             font-weight: bold;
             font-size: 42px;
@@ -67,6 +74,7 @@ export default {
             padding-bottom: 42px;
         }
     }
+
     .title_news::after {
         content: "";
         width: 80px;
@@ -77,9 +85,11 @@ export default {
         left: 50%;
         transform: translate(-50%, -50%)
     }
+
     .pb_1 {
         padding-bottom: 54px;
     }
+
     .mb_1 {
         margin-bottom: 76px;
     }

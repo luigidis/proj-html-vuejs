@@ -24,10 +24,12 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
-import { faMagnifyingGlass, faAngleRight, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faMagnifyingGlass, faAngleRight, faArrowRight, faFileLines, faMugSaucer, faCubes, faLaptop, faWrench } from '@fortawesome/free-solid-svg-icons'
+/* import brand icons */
+import { faApple, faWindows, faAndroid } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faMagnifyingGlass, faAngleRight, faArrowRight)
+library.add(faMagnifyingGlass, faAngleRight, faArrowRight, faFileLines, faApple, faWindows, faAndroid, faMugSaucer, faCubes, faLaptop, faWrench)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
